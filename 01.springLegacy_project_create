@@ -1,3 +1,4 @@
+
 1.Spring_Legacy_Project 생성
 https://junesker.tistory.com/86
 
@@ -6,3 +7,12 @@ Spring_MVC_Project_Template_xml.zip 파일
 search-ms:displayname=.plugins의%20검색%20결과&crumb=location:C%3A%5CeGovFrame-3.10.0%5Cworkspace_xml%5C.metadata%5C.plugins\org.springsource.ide.eclipse.commons.content.core
 아래파일넣기
 https-content.xml
+
+
+cvc-elt.1.a: Cannot find the declaration of element 'web-app'.
+==>
+
+<web-app id="WebApp_ID" version="3.1" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" 
+		xmlns="https://xmlns.jcp.org/xml/ns/javaee" xmlns:web="https://xmlns.jcp.org/xml/ns/javaee" 
+		xsi:schemaLocation="https://java.sun.com/xml/ns/javaee https://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+http ==> https
